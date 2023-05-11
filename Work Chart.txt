@@ -1,0 +1,13 @@
+Services -
+
+For exclusive offers - register/login --sanpreeet
+
+Book Table -> check for user if logged in dont ask for personal details only check for time and date, post request (user email, name, phonenumber, date and time) --anuj
+check for the slot, if available then give opotion to book else block it
+after successfull booking create a modal popup of success response
+
+for online booking
+Cards -> categorize the cusine and seperate the cards (Analysis and model if time permits- chandramani), each card will have a get request to provide food details
+Inside each cards ->Order collection --> insert a ref for cart collection Post option to add the food and when user clicks order now in checkout page -> Delivery Details -> Post request for Address details(check for current location and saved address approach), save it in the order collection
+
+
